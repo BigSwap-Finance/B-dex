@@ -1,0 +1,300 @@
+{
+    "general": {
+        "title": "Belifex Decentralized Exchange",
+        "icon": "https://belifex.com/assets/android-icon-48x48.png",
+        "social": {
+            "telegram_url": "https://t.me/belifex_official",
+            "twitter_url": "https://twitter.com/BelifexE",
+            "facebook_url": "https://www.facebook.com/Belifex.BEFX/",
+            "discord_url": "https://discord.gg/CVhZDVA",
+            "reddit_url": "https://www.reddit.com/r/Belifex/",
+            "bitcointalk_url": "https://bitcointalk.org/index.php?topic=5168580.0",
+            "statedapps_url": "https://www.stateofthedapps.com/dapps/belifex-dex"
+        }
+    },
+    "tokens": [
+        {
+            "symbol": "weth",
+            "name": "Wrapped Ether",
+            "primaryColor": "#3333ff",
+            "icon": "assets/icons/weth.svg",
+            "addresses": {
+                "1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "3": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "4": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "42": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+                "50": "0x0b1ba0af832d7c05fd64161e0db78e85978e8082"
+            },
+            "decimals": 18,
+            "displayDecimals": 4,
+            "id": "ethereum",
+            "c_id": "ethereum",
+            "website": "https://weth.io",
+            "description": "wETH is 'wrapped ETH'"
+        },
+        {
+            "symbol": "zrx",
+            "name": "0x Protocol Token",
+            "primaryColor": "#333333",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+                "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
+                "5": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
+                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
+            },
+            "decimals": 18,
+            "displayDecimals": 2,
+            "c_id": "0x",
+            "website": "https://0x.org",
+            "description": "0x is an open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain."
+        },
+        {
+            "decimals": 8,
+            "symbol": "befx",
+            "name": "Belifex",
+            "icon": "https://belifex.com/assets/befx.png",
+            "primaryColor": "#2C80BE",
+            "addresses": {
+                "1": "0xB91C2a2b953D72f3EF890490669a0A41B0ADD5f7"
+            },
+            "c_id": "befx",
+            "website": "https://belifex.com"
+        },
+        {
+            "decimals": 18,
+            "symbol": "dai",
+            "name": "Dai",
+            "icon": "https://belifex.com/assets/dai.png",
+            "primaryColor": "#F4B731",
+            "addresses": {
+                "1": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            },
+            "website": "https://makerdao.com/en/dai/",
+            "description": "Dai is an asset-backed, hard currency for the 21st century.",
+            "c_id": "dai"
+        },
+        {
+            "decimals": 6,
+            "symbol": "usdc",
+            "name": "USD-Coin",
+            "icon": "https://belifex.com/assets/usdc.png",
+            "primaryColor": "#2875FA",
+            "addresses": {
+                "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            "website": "https://www.centre.io/",
+            "description": "USD-Coin is a stablecoin by Coinbase and Circle",
+            "c_id": "usdc"
+        },
+        {
+            "decimals": 18,
+            "symbol": "mkr",
+            "name": "Maker",
+            "icon": "https://belifex.com/assets/mkr.png",
+            "primaryColor": "#1AAB9B",
+            "addresses": {
+                "1": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+                "3": "0x06732516acd125b6e83c127752ed5f027e1b276e",
+                "4": "0xb763e26cd6dd09d16f52dc3c60ebb77e46b03290",
+                "42": "0x7B6B10CAa9E8E9552bA72638eA5b47c25afea1f3",
+                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
+            },
+            "website": "https://makerdao.com/",
+            "description": "Digital currency that can be used by anyone, anywhere, anytime.",
+            "c_id": "mkr"
+        },
+        {
+            "decimals": 6,
+            "symbol": "usdt",
+            "name": "Tether USD",
+            "icon": "https://belifex.com/assets/usdt.png",
+            "primaryColor": "#26A17B",
+            "addresses": {
+                "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            },
+            "website": "https://tether.to/",
+            "description": "Tether converts cash into digital currency, to anchor or tether the value to the price of national currencies like the US dollar, the Euro, and the Yen.",
+            "c_id": "usdt"
+        },
+        {
+            "decimals": 18,
+            "symbol": "bat",
+            "name": "Basic Attention Token",
+            "icon": "https://belifex.com/assets/bat.png",
+            "primaryColor": "#EBE8E8",
+            "addresses": {
+                "1": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+            },
+            "website": "https://basicattentiontoken.org/",
+            "description": "Basic Attention Token radically improves the efficiency of digital advertising by creating a new token that can be exchanged between publishers, advertisers, and users.",
+            "c_id": "bat"
+        },
+        {
+            "decimals": 18,
+            "symbol": "link",
+            "name": "Chain.Link",
+            "icon": "https://belifex.com/assets/link.png",
+            "primaryColor": "#EBE8E8",
+            "addresses": {
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            "website": "https://chain.link/",
+            "description": "The Chainlink network provides reliable tamper-proof inputs and outputs for complex smart contracts on any blockchain.",
+            "c_id": "link"
+        },
+	{
+            "decimals": 8,
+            "symbol": "0xbtc",
+            "name": "0xBitcoin Token",
+            "icon": "https://belifex.com/assets/oxbtc.png",
+            "primaryColor": "#2A203C",
+            "addresses": {
+                "1": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31"
+            },
+            "website": "https://0xbitcoin.org/",
+            "description": "0xBTC is a faithful implementation of Bitcoin as a trustless, immutable Ethereum smart contract.",
+            "c_id": "0xbtc"
+        }
+    ],
+    "pairs": [
+        {
+            "base": "weth",
+            "quote": "usdc"
+        },
+        {
+            "base": "weth",
+            "quote": "usdt"
+        },
+        {
+            "base": "befx",
+            "quote": "weth"
+        },
+        {
+            "base": "zrx",
+            "quote": "weth"
+        },
+        {
+            "base": "dai",
+            "quote": "weth"
+        },
+        {
+            "base": "mkr",
+            "quote": "weth"
+        },
+        {
+            "base": "bat",
+            "quote": "weth"
+        },
+        {
+            "base": "link",
+            "quote": "weth"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "weth"
+        },
+        {
+            "base": "zrx",
+            "quote": "befx"
+        },
+        {
+            "base": "dai",
+            "quote": "befx"
+        },
+        {
+            "base": "mkr",
+            "quote": "befx"
+        },
+        {
+            "base": "bat",
+            "quote": "befx"
+        },
+        {
+            "base": "link",
+            "quote": "befx"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "befx"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdc"
+        },
+        {
+            "base": "dai",
+            "quote": "usdc"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdc"
+        },
+        {
+            "base": "befx",
+            "quote": "usdc"
+        },
+        {
+            "base": "bat",
+            "quote": "usdc"
+        },
+        {
+            "base": "link",
+            "quote": "usdc"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdc"
+        },
+        {
+            "base": "befx",
+            "quote": "usdt"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdt"
+        },
+        {
+            "base": "dai",
+            "quote": "usdt"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdt"
+        },
+        {
+            "base": "bat",
+            "quote": "usdt"
+        },
+        {
+            "base": "link",
+            "quote": "usdt"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdt"
+        }        
+    ],
+    "marketFilters": [
+        {
+            "text": "BEFX",
+            "value": "befx"
+        },
+        {
+            "text": "ETH",
+            "value": "weth"
+        },
+        {
+            "text": "USDT",
+            "value": "usdt"
+        },
+        {
+            "text": "USDC",
+            "value": "usdc"
+        }
+    ]
+}
+
+
