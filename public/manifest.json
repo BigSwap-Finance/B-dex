@@ -48,8 +48,9 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/erc20",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "scope": "/erc20",
     "display": "standalone",
-    "theme_color": "#2e4e7c",
-    "background_color": "#fafafa"
+    "theme_color": "#2e4e7c"
 }
