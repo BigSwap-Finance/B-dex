@@ -48,9 +48,9 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "/#/erc20",
     "background_color": "#3367D6",
-    "scope": "/",
+    "scope": ".",
     "display": "standalone",
     "theme_color": "#2e4e7c"
 }
