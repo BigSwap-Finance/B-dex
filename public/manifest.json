@@ -48,7 +48,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/#/erc20",
+    "start_url": ".",
     "background_color": "#3367D6",
     "scope": ".",
     "display": "standalone",
