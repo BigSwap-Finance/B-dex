@@ -70,7 +70,6 @@
         "web3": "^1.2.7"
     },
     "scripts": {
-        "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
         "start": "cross-env PORT=80 react-scripts --max_old_space_size=4096 start",
         "analyze": "cross-env source-map-explorer 'build/static/js/*.js'",
         "build-analyze": "cross-env react-scripts build",
