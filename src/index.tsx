@@ -56,7 +56,6 @@ const Web3WrappedApp = (
     <Provider store={store}>
         <ConnectedRouter history={history}>
             <AppContainer>
-                <Suspense fallback={<PageLoading />}>
                     <Switch>
                         <Route path={ERC20_APP_BASE_PATH} component={Erc20App} />
                         <Route path={LAUNCHPAD_APP_BASE_PATH} component={LaunchpadApp} />
@@ -67,7 +66,6 @@ const Web3WrappedApp = (
                         <Route path={MARKET_APP_BASE_PATH} component={MarketTradeApp} />
                         <Route component={RedirectToHome} />
                     </Switch>
-                </Suspense>
             </AppContainer>
         </ConnectedRouter>
     </Provider>
