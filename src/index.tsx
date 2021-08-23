@@ -19,7 +19,6 @@ import {
     MARKET_APP_BASE_PATH,
 } from './common/constants';
 import { AppContainer } from './components/app';
-import { PageLoading } from './components/common/page_loading';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { history, store } from './store';
