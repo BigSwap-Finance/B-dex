@@ -24,9 +24,9 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { history, store } from './store';
 import { envUtil } from './util/env';
-import Erc20App from './components/erc20/erc20_app';
+/*import Erc20App from './components/erc20/erc20_app';
 import LaunchpadApp from './components/erc20/launchpad_app';
-import MarginApp from './components/erc20/margin_app';
+import MarginApp from './components/erc20/margin_app';*/
 
 // Adding analytics
 ReactGA.initialize(process.env.REACT_APP_ANALYTICS || '');
