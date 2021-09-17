@@ -126,11 +126,10 @@ function checkValidServiceWorker(swUrl, config) {
     });
 }
 
-
-
-navigator.serviceWorker.addEventListener('controllerchange', () => {
-  // This fires when the service worker controlling this page
-  // changes, eg a new worker has skipped waiting and become
-  // the new active worker.
-});
-
+export function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
