@@ -126,13 +126,6 @@ function checkValidServiceWorker(swUrl, config) {
     });
 }
 
-export function register() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.ready.then(registration => {
-      registration.register();
-    });
-  }
-}
 
 navigator.serviceWorker.register('/sw.js').then(reg => {
   reg.installing; // the installing worker, or undefined
