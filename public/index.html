@@ -19,10 +19,10 @@
 
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
+      content="width=device-width, initial-scale=1" />
+      
     <meta name="theme-color" content="#3c790a">  
-    <link rel="manifest" href="public/manifest.json">
+    <link rel="manifest" href="/manifest" crossorigin="use-credentials">  
   
     <title>Belifex Decentralized Exchange</title>
     <meta name="title" content="Belifex Decentralized Exchange — ERC20 trading platform">
@@ -55,13 +55,6 @@
    <script>
   navigator.serviceWorker.register('/sw.js')
     .then(reg => console.log('SW registered!', reg))
-    .catch(err => console.log('Boo!', err));
-
-  setTimeout(() => {
-    const img = new Image();
-    img.src = '/elephant.svg';
-    document.body.appendChild(img);
-  }, 3000);
 </script>   
 
  <style type="text/css">
