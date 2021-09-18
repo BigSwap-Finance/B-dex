@@ -135,5 +135,5 @@ export function unregister() {
 }
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js');
+  navigator.serviceWorker.register('/serviceWorker.js');
 }
